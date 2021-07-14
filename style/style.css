@@ -1,20 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/* top-part css start */
+/*-----top-part css---- */
 .top-part{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color: #2D25A0;
-    margin-bottom: 25px;
-    
-    
+    margin-bottom: 25px;  
 }
 .top-banner img{
     width: 80%;
     padding-top: 5%;
-    transition: transform 2s;
-    
+    transition: transform 2s;  
 }
 .top-part:hover .top-banner img{
     transform: scale(1.2);
@@ -23,14 +20,11 @@ body{
     position: relative;
     left: 20%;
     top: 15%;
-    color: white;
-    
+    color: white;  
 }
 .top-text{
     font-size: 3em;
-    font-weight: 800;
-    
-    
+    font-weight: 800; 
 }
 .live{
     text-decoration: none;
@@ -40,9 +34,8 @@ body{
     border-radius: 5px;
     margin-top: 10px;
 }
-/* top-part css end */
 
-/* Player-info */
+/* ----------Player-info------- */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -55,21 +48,19 @@ body{
     width: 330px;
     height: 474px;
     box-shadow: 0 0 5px 1px lightgrey;
-    
-
 }
 .player .player-photo img{
     width: 300px;
     height: 256px;
-    margin: 16px 16px;
-    
+    margin: 16px 16px;  
 }
 .player .player-info{
     width: 300px;
     height: 154px;
     margin: 16px 16px;
 }
-/* Footer */
+
+/* -----Footer------ */
 footer{
     background-color: lightslategray;
 }
@@ -87,12 +78,14 @@ footer{
     padding: 20px;
     font-size: 2em;
 }
-/* media queries */
-@media (max-width:360px) {
+
+
+
+/* media queries for mobile */
+@media (max-width:688px) {
     .top-part , .players{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        
+        grid-template-columns: repeat(1, 1fr);   
     }
     .top-text , .live{
         text-align: center;
@@ -105,7 +98,5 @@ footer{
     .top-banner img{
         margin-top: 50px;
         width: 100%;
-    }
-    
-
+    }   
 }
