@@ -1,0 +1,89 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* top-part css start */
+.top-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #2D25A0;
+    margin-bottom: 25px;
+    
+    
+}
+.top-banner img{
+    width: 80%;
+    padding-top: 5%;
+    transition: transform 2s;
+    
+}
+.top-part:hover .top-banner img{
+    transform: scale(1.2);
+}
+.top-text , .live{
+    position: relative;
+    left: 20%;
+    top: 15%;
+    color: white;
+    
+}
+.top-text{
+    font-size: 3em;
+    font-weight: 800;
+    
+    
+}
+.live{
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* top-part css end */
+
+/* Player-info */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 27px;
+    justify-items: center;
+    align-items: center;   
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0 5px 1px lightgrey;
+    
+
+}
+.player .player-photo img{
+    width: 300px;
+    height: 256px;
+    margin: 16px 16px;
+    
+}
+.player .player-info{
+    width: 300px;
+    height: 154px;
+    margin: 16px 16px;
+}
+/* Footer */
+footer{
+    background-color: lightslategray;
+}
+#footer-text{
+    text-align: center;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.foot-icon{
+    color: lightgray;
+    padding: 20px;
+    font-size: 2em;
+}
