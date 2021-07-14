@@ -87,3 +87,25 @@ footer{
     padding: 20px;
     font-size: 2em;
 }
+/* media queries */
+@media (max-width:360px) {
+    .top-part , .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .top-text , .live{
+        text-align: center;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    
+    }
+    .top-banner img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+
+}
